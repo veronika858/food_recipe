@@ -1,0 +1,66 @@
+//
+//	TYPOGRAPHY
+// ------------------------------------------------------
+
+h1 {
+  text-align: center;
+  //padding-top: 5rem;
+  font-size: em(52);
+  font-weight: bold;
+  //padding-bottom: 3rem;
+  color: $color-main-title;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+  text-shadow: 0 0.2rem 5rem $color-shadow;
+  text-transform: uppercase;
+  margin: 3rem 0;
+
+
+
+}
+
+h2 {
+  //text-transform: uppercase;
+  font-size: em(30);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: em(25);
+}
+
+h4 {
+  font-size: em(20);
+  font-weight: bold;
+  margin-top: 1.25em;
+}
+
+h5 {
+  font-size: em(16);
+  //font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0.5em;
+  font-weight: normal;
+  text-align: center;
+}
+
+h6 {
+}
+
+p {
+  font-size: em(17);
+}
+
+li a {
+  font-size: em(16);
+}
+
+small {
+  font-size: em(17);
+}
+
+a:hover,
+a:focus {
+  color: $color-hover;
+}
+

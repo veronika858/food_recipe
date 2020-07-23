@@ -1,0 +1,89 @@
+//mediaQueris
+@media (max-width: 878px) {
+h1{
+  font-size: em(40);
+}
+  .recipe h2{
+    font-size: em(25);
+  }
+  .recipe h2{
+    width: 91%;
+  }
+}
+
+@media (max-width: 769px) {
+ .recipe{
+   width: 48%;
+ }
+  .recipe h2{
+    width: 93%;
+  }
+}
+
+
+@media (max-width: 680px) {
+  .search-form{
+    width: 75%;
+    padding: em(22);
+  }
+  h1{
+    font-size: em(35);
+  }
+  .alert{
+    top: -34px;
+  }
+}
+
+@media (max-width: 630px) {
+  .recipe{
+    width: 75%;
+  }
+  .recipe h2{
+    width: 94%;
+  }
+
+  h1{
+    font-size: em(30);
+  }
+}
+
+@media (max-width: 500px) {
+.search-form{
+  width: 85%;
+  padding: em(20);
+}
+  .recipe h2{
+    width: 93%;
+  }
+}
+
+@media (max-width: 426px){
+  h1{
+    font-size: em(27);
+  }
+  .search-form{
+    padding: em(18);
+  }
+  h5{
+    font-size: em(14);
+  }
+  .alert{
+    top: -31px;
+  }
+}
+
+
+
+@media (max-width: 350px){
+
+  h5{
+    font-size: em(12);
+  }
+  .alert{
+    top: -28px;
+  }
+
+  .recipe h2{
+    width: 91%;
+  }
+}
